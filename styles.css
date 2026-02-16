@@ -72,6 +72,17 @@ body {
     transition: var(--transition);
 }
 
+.logo-img {
+    height: 50px;
+    width: auto;
+    transition: var(--transition);
+}
+
+.logo:hover .logo-img {
+    transform: translateY(-2px);
+    filter: brightness(1.1);
+}
+
 .logo-text {
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
@@ -1016,6 +1027,15 @@ body {
         var(--secondary);
     border-radius: 20px;
     border: 1px solid rgba(16, 185, 129, 0.2);
+}
+
+.about-img-real {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid rgba(16, 185, 129, 0.2);
+    box-shadow: var(--shadow-lg);
 }
 
 .centered-content {
