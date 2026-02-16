@@ -1,0 +1,6 @@
+# Redirect .html to clean URLs
+/about.html /about 301
+/services.html /services 301
+/contact.html /contact 301
+/legal.html /legal 301
+/index.html / 301
