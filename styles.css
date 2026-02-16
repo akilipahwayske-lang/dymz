@@ -306,8 +306,22 @@ body {
     backdrop-filter: blur(10px);
     border: 1px solid rgba(16, 185, 129, 0.2);
     border-radius: 20px;
-    padding: 2rem;
+    padding: 0;
     box-shadow: var(--shadow-lg);
+    overflow: hidden;
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.9;
+    transition: var(--transition);
+}
+
+.floating-card:hover .card-img {
+    opacity: 1;
+    transform: scale(1.05);
 }
 
 .card-1 {
